@@ -6,7 +6,7 @@ _sum = 0
 sequence = [int(digit) for digit in _input]
 length = len(sequence)
 for index, digit in enumerate(sequence):
-    next_digit = sequence[(index+1)%length]
+    next_digit = sequence[(index+1) % length]
     
     if digit == next_digit:
         _sum += digit

@@ -1,5 +1,3 @@
-from itertools import cycle
-
 _input = ""
 with open("01_input.txt", "r") as f:
     _input = f.read()
